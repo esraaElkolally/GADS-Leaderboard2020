@@ -221,7 +221,7 @@
             android:id="@+id/group"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="@{viewModel.showSucessDialog || viewModel.showFailDialog || viewModel.showConfirmaDialog ? View.GONE :View.VISIBLE}"
+            android:visibility="@{viewModel.showSucessDialog || viewModel.showFailDialog || viewModel.showConfirmaDialog ? View.INVISIBLE :View.VISIBLE}"
             app:constraint_referenced_ids="lastNameEditText,editTextEmail,button,firstNameEditText,editTextproLink" />
 
 
