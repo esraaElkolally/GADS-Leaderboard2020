@@ -32,7 +32,7 @@ class SubmitActivity : AppCompatActivity() {
                 submitViewModel.showSucessDialog.value = true
                 showSuccessAlertDialog(this, submitViewModel)
             } else {
-                submitViewModel.showFailDialog.value = false
+                submitViewModel.showFailDialog.value = true
                 showErrorAlertDialog(this, submitViewModel)
             }
         })
